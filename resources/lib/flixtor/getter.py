@@ -15,7 +15,7 @@ __addondir__ = xbmc.translatePath(__addon__.getAddonInfo('profile'))
 __handle__ = int(sys.argv[1])
 
 # domain
-_domain_ = 'https://flixtor.se'
+_domain_ = 'https://flixtorz.to'
 
 s = requests.Session()
 
