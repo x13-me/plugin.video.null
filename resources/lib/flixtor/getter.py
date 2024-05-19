@@ -172,7 +172,7 @@ def getMovie(movie_id):
 
     headers = {
     "method":"GET",
-    "authority":"flixtor.se",
+    "authority":"flixtorz.to",
     "scheme":"https",
     "path":path,
     "pragma":"no-cache",
@@ -184,7 +184,7 @@ def getMovie(movie_id):
     "sec-fetch-site":"same-origin",
     "sec-fetch-mode":"cors",
     "sec-fetch-dest":"empty",
-    "referer":"https://flixtor.se/home",
+    "referer":"https://flixtorz.to/home",
     "accept-encoding":"gzip, deflate, br",
     "accept-language":"en-US,en;q=0.9,sl;q=0.8",
     "cookie": cookie
@@ -209,7 +209,7 @@ def getEpisode(episode_id):
 
     headers = {
     "method":"GET",
-    "authority":"flixtor.se",
+    "authority":"flixtorz.to",
     "scheme":"https",
     "path":path,
     "pragma":"no-cache",
@@ -221,7 +221,7 @@ def getEpisode(episode_id):
     "sec-fetch-site":"same-origin",
     "sec-fetch-mode":"cors",
     "sec-fetch-dest":"empty",
-    "referer":"https://flixtor.se/home",
+    "referer":"https://flixtorz.to/home",
     "accept-encoding":"gzip, deflate, br",
     "accept-language":"en-US,en;q=0.9,sl;q=0.8",
     "cookie": cookie
